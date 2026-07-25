@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About — Muhammed Emam, Senior Product Designer</title>
+<meta name="description" content="Five chapters on how Muhammed Emam went from answering complaints in Cairo to designing products across five markets — and what he is building next.">
+<link rel="canonical" href="https://muhammedemaam.github.io/about/">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://muhammedemaam.github.io/about/">
+<meta property="og:title" content="About — Muhammed Emam, Senior Product Designer">
+<meta property="og:description" content="Five chapters on how Muhammed Emam went from answering complaints in Cairo to designing products across five markets.">
+<meta property="og:image" content="https://muhammedemaam.github.io/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About — Muhammed Emam, Senior Product Designer">
+<meta name="twitter:description" content="Five chapters on how Muhammed Emam went from answering complaints in Cairo to designing products across five markets.">
+<meta name="twitter:image" content="https://muhammedemaam.github.io/og-image.jpg">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#2947EC">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AboutPage","url":"https://muhammedemaam.github.io/about/",
+"mainEntity":{"@type":"Person","name":"Muhammed Emam","jobTitle":"Senior Product Designer",
+"url":"https://muhammedemaam.github.io/","email":"muhammed.ahmed5798@gmail.com",
+"address":{"@type":"PostalAddress","addressLocality":"Cairo","addressCountry":"EG"},
+"nationality":"Egyptian","knowsLanguage":["ar","en"],
+"alumniOf":{"@type":"CollegeOrUniversity","name":"Cairo University"},
+"sameAs":["https://linkedin.com/in/muhammed-ahmed-emam","https://behance.net/muhammedahmed36"]}}
+</script>
+<style>
+:root{
+  --paper:#FBFAF8; --ink:#17171B; --cobalt:#2947EC;
+  --muted:#767293; --line:#E4E1DA; --shell:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0; background:var(--paper); color:var(--ink);
+  font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;}
+body::before{content:""; position:fixed; inset:0; pointer-events:none; z-index:0; opacity:.5;
+  background-image:radial-gradient(rgba(23,23,27,.055) .5px, transparent .5px);
+  background-size:3px 3px;}
+.shell{position:relative; z-index:1; max-width:var(--shell); margin:0 auto; padding:0 28px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--cobalt); outline-offset:3px; border-radius:2px}
+.mast{display:flex; align-items:center; justify-content:space-between; padding:26px 0 0}
+.logo{font-weight:800; letter-spacing:-.03em; font-size:20px; text-decoration:none}
+.logo i{font-style:normal; color:var(--cobalt)}
+.back{font-size:13px; text-decoration:none; color:var(--ink);
+  border:1px solid var(--line); border-radius:999px; padding:9px 17px; background:#fff;
+  transition:border-color .18s, transform .18s;}
+.back:hover{border-color:var(--cobalt); transform:translateX(-3px)}
+.head{padding:70px 0 46px; border-bottom:1px solid var(--line)}
+.eyebrow{font-size:11px; letter-spacing:.26em; text-transform:uppercase; color:var(--muted); margin:0 0 20px}
+.head h1{margin:0; font-size:clamp(50px,10vw,116px); line-height:.88; letter-spacing:-.045em; font-weight:800}
+.head h1 i{font-style:normal; color:var(--cobalt); display:block}
+.head p{margin:26px 0 0; max-width:56ch; color:var(--muted); font-size:18px}
+.book{display:grid; grid-template-columns:216px 1fr; gap:64px; padding:54px 0 40px; align-items:start}
+.spine{position:sticky; top:34px}
+.spine ol{list-style:none; margin:0; padding:0}
+.spine li{margin:0 0 3px}
+.spine button{display:flex; gap:14px; align-items:baseline; width:100%; text-align:left;
+  background:none; border:0; padding:11px 12px; cursor:pointer; border-radius:8px;
+  font:inherit; font-size:14px; color:var(--muted);
+  border-left:2px solid transparent; transition:color .18s, background .18s, border-color .18s;}
+.spine button:hover{color:var(--ink); background:#fff}
+.spine button[aria-current="true"]{color:var(--ink); font-weight:600; border-left-color:var(--cobalt); background:#fff}
+.spine .num{font-size:11px; letter-spacing:.14em; color:var(--cobalt); font-variant-numeric:tabular-nums}
+.progress{margin-top:26px; padding-left:14px; font-size:11px; letter-spacing:.16em; color:var(--muted)}
+.bar{height:2px; background:var(--line); margin-top:9px; width:150px; overflow:hidden}
+.bar span{display:block; height:100%; background:var(--cobalt); width:20%; transition:width .45s cubic-bezier(.22,1,.36,1)}
+.pages{position:relative; min-height:460px}
+.page{display:none}
+.page.on{display:block; animation:turn .5s cubic-bezier(.22,1,.36,1) both}
+@keyframes turn{from{opacity:0; transform:translateY(16px)} to{opacity:1; transform:none}}
+.page .chapno{font-size:clamp(64px,9vw,112px); line-height:1; font-weight:800; letter-spacing:-.05em;
+  color:transparent; -webkit-text-stroke:1.5px var(--line); margin:0 0 4px; font-variant-numeric:tabular-nums}
+.page h2{margin:0 0 8px; font-size:clamp(30px,4.4vw,44px); line-height:1.05; letter-spacing:-.035em; font-weight:800}
+.page .place{font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); margin:0 0 26px}
+.page p{margin:0 0 20px; max-width:60ch}
+.page p.lead{font-size:20px; line-height:1.55}
+.pull{margin:34px 0; padding:22px 0 22px 26px; border-left:3px solid var(--cobalt);
+  font-size:22px; line-height:1.4; letter-spacing:-.02em; max-width:46ch}
+.facts{display:flex; flex-wrap:wrap; gap:10px; margin:30px 0 0; padding:0; list-style:none}
+.facts li{font-size:12.5px; color:var(--ink); background:#fff;
+  border:1px solid var(--line); border-radius:999px; padding:8px 15px}
+.facts li b{color:var(--cobalt); font-weight:700}
+.pager{display:flex; gap:12px; margin-top:46px; padding-top:26px; border-top:1px solid var(--line)}
+.pager button{font:inherit; font-size:14px; background:#fff; border:1px solid var(--line); color:var(--ink);
+  border-radius:999px; padding:11px 21px; cursor:pointer; transition:border-color .18s}
+.pager button:hover:not(:disabled){border-color:var(--cobalt)}
+.pager button:disabled{opacity:.35; cursor:default}
+.pager .next{background:var(--cobalt); color:#fff; border-color:var(--cobalt); font-weight:600}
+.close{border-top:1px solid var(--line); margin-top:20px; padding:52px 0 76px}
+.close h3{margin:0 0 10px; font-size:clamp(26px,3.6vw,36px); letter-spacing:-.03em; font-weight:800}
+.close p{margin:0 0 26px; color:var(--muted); max-width:48ch}
+.links{display:flex; flex-wrap:wrap; gap:11px}
+.links a{text-decoration:none; font-size:14px; border:1px solid var(--line); background:#fff;
+  border-radius:999px; padding:12px 21px; transition:border-color .18s, transform .18s}
+.links a:hover{border-color:var(--cobalt); transform:translateY(-2px)}
+.links a.solid{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+@media (max-width:880px){
+  .book{grid-template-columns:1fr; gap:30px; padding-top:34px}
+  .spine{position:static}
+  .spine ol{display:flex; overflow-x:auto; gap:6px; padding-bottom:6px}
+  .spine li{margin:0; flex:0 0 auto}
+  .spine button{border-left:0; border-bottom:2px solid transparent; white-space:nowrap; border-radius:8px 8px 0 0}
+  .spine button[aria-current="true"]{border-left-color:transparent; border-bottom-color:var(--cobalt)}
+  .progress{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important; transition:none !important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+
+  <header class="mast">
+    <a class="logo" href="/">ME<i>.</i></a>
+    <a class="back" href="/">← Back to work</a>
+  </header>
+
+  <div class="head">
+    <p class="eyebrow">About · Five chapters</p>
+    <h1>Muhammed <i>Emam</i></h1>
+    <p>I design products. This is the short version of how that happened, and where it is going — read it in five chapters or skip to the one you care about.</p>
+  </div>
+
+  <div class="book">
+    <nav class="spine" aria-label="Chapters">
+      <ol id="spine"></ol>
+      <div class="progress" aria-hidden="true">
+        CHAPTER <span id="pnum">1</span> / 5
+        <div class="bar"><span id="pbar"></span></div>
+      </div>
+    </nav>
+
+    <main class="pages" id="pages">
+
+      <article class="page on" id="ch1" aria-labelledby="ch1h">
+        <p class="chapno">01</p>
+        <h2 id="ch1h">Cairo</h2>
+        <p class="place">Born and raised · 1998</p>
+        <p class="lead">I was born in Cairo in 1998, and I have never really left. The city is loud, dense, and improvised, and it teaches you to read systems that were never designed — which turns out to be most of them.</p>
+        <p>As a kid I wanted to be a pilot. I liked the instruments more than the flying: the idea that a wall of dials could tell one person everything they needed to know about a machine moving at speed. I did not become a pilot. I ended up designing the dials.</p>
+        <p>I studied Marketing at Cairo University and graduated in 2021. Nothing about that degree was product design, but it was four years of being asked the same question in different forms — <em>who is this for, and why would they care?</em> That question never stopped being the job.</p>
+        <ul class="facts">
+          <li><b>BBA Marketing</b> · Cairo University, 2017–2021</li>
+          <li>Native Arabic · fluent English</li>
+        </ul>
+      </article>
+
+      <article class="page" id="ch2" aria-labelledby="ch2h">
+        <p class="chapno">02</p>
+        <h2 id="ch2h">The Other Side</h2>
+        <p class="place">CashU · Customer Support Team Lead · 2021–2022</p>
+        <p class="lead">My first real job was answering complaints. I led the customer support team at CashU, which meant I spent a year on the other side of the screen from the product — the side where things go wrong.</p>
+        <p>People do not file complaints about design. They file complaints about money that did not arrive, a screen they could not get past, a word they did not understand. But sit with a few hundred of those and the pattern stops being about support. The same tickets kept arriving because the same assumptions kept being wrong.</p>
+        <div class="pull">Complaints are not noise. They are the product telling you exactly where it lied to someone.</div>
+        <p>We cut complaints by 30% and lifted retention by 15% — not by writing better replies, but by tracing each recurring ticket back to the decision that caused it. That was the moment the work stopped being support and started being design.</p>
+        <ul class="facts">
+          <li>Complaints <b>−30%</b></li>
+          <li>Retention <b>+15%</b></li>
+        </ul>
+      </article>
+
+      <article class="page" id="ch3" aria-labelledby="ch3h">
+        <p class="chapno">03</p>
+        <h2 id="ch3h">The Turn</h2>
+        <p class="place">Koinz · Fekra · Sword · 2022 → now</p>
+        <p class="lead">I came into design through the surface — colour, type, the satisfaction of a screen that looks right. It took a few years to understand that the surface is the last five percent.</p>
+        <p>At Koinz I learned the craft floor: wireframes, prototypes, maintaining a design system, handing off to engineers at a precision where nothing gets improvised. At Fekra I took a product end to end for the first time — personas, flows, interface, documentation, delivery — and shipped Bassma.</p>
+        <p>At Sword the scope changed again. Four products built from zero, 150+ screens each, on a design system I own that now covers around 90% of what ships. Enterprise dashboards, EHS systems, government platforms, auditing, reporting, AI-assisted workflows. I built the Arabic and RTL conversion infrastructure, and a Figma-to-code pipeline that moves real components and tokens instead of screenshots.</p>
+        <p>Two products carry most of that work. <strong>Managed</strong> is a US special-education platform for IEP and 504 case management, now running in 11 schools for over 1,000 students. <strong>NoveIntelligence</strong> is a separate UAE multi-tenant SaaS platform for enterprises, government entities, and regulated organisations — performance, governance, execution, dashboards, auditing, and AI assistance in one secure system, replacing the spreadsheets and disconnected tools that came before it.</p>
+        <ul class="facts">
+          <li><b>4</b> products from zero</li>
+          <li><b>150+</b> screens each</li>
+          <li><b>~90%</b> design-system coverage</li>
+          <li>Managed · <b>11</b> schools, <b>1,000+</b> students</li>
+        </ul>
+      </article>
+
+      <article class="page" id="ch4" aria-labelledby="ch4h">
+        <p class="chapno">04</p>
+        <h2 id="ch4h">Off Screen</h2>
+        <p class="place">Football · gaming · travel · music</p>
+        <p class="lead">I watch football, badly and loudly. I play games, which is also how I ended up running a gaming gift-card store and learning more about payment friction in this region than any brief could have taught me.</p>
+        <p>I travel when I can. Different cities are the fastest way I know to notice how much of what feels universal in a product is really just local habit — a form field order, a date format, a direction of reading.</p>
+        <p>And music, constantly, while working. None of this is a hobbies list for a CV. It is where most of the taste comes from.</p>
+      </article>
+
+      <article class="page" id="ch5" aria-labelledby="ch5h">
+        <p class="chapno">05</p>
+        <h2 id="ch5h">Next</h2>
+        <p class="place">The five-year direction</p>
+        <p class="lead">I want to build an AI software-development company.</p>
+        <p>Not because AI is the headline — it is not, and I am wary of designers who make it one. Because the interesting problem right now is the gap between what these systems can generate and what teams can actually ship, and that gap is a design problem before it is an engineering one.</p>
+        <p>The pipeline I built at Sword is a small version of the same idea: the model is useful exactly to the degree that it is wired into a real system with real components, real tokens, and real constraints. Everything else is a demo.</p>
+        <div class="pull">Start with the friction. Then build the system that removes it.</div>
+        <p>In the meantime I am looking for senior product design roles where the problems are complex, the products are real, and the work compounds. If that sounds like your team, the next chapter is short.</p>
+      </article>
+
+    </main>
+  </div>
+
+  <div class="close">
+    <h3>Let's talk.</h3>
+    <p>Open to senior product design and UI/UX roles. Based in Cairo, working with teams worldwide.</p>
+    <div class="links">
+      <a class="solid" href="mailto:muhammed.ahmed5798@gmail.com">muhammed.ahmed5798@gmail.com</a>
+      <a href="https://linkedin.com/in/muhammed-ahmed-emam" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://behance.net/muhammedahmed36" target="_blank" rel="noopener noreferrer">Behance ↗</a>
+      <a href="/Muhammed-Emam-CV.pdf">Download CV ↓</a>
+      <a href="/">See the work →</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var TITLES = ["Cairo","The Other Side","The Turn","Off Screen","Next"];
+  var pages  = Array.prototype.slice.call(document.querySelectorAll('.page'));
+  var spine  = document.getElementById('spine');
+  var pnum   = document.getElementById('pnum');
+  var pbar   = document.getElementById('pbar');
+  var cur    = 0;
+  TITLES.forEach(function(t,i){
+    var li = document.createElement('li');
+    var b  = document.createElement('button');
+    b.type = 'button';
+    b.innerHTML = '<span class="num">0'+(i+1)+'</span><span>'+t+'</span>';
+    b.setAttribute('aria-current', i===0 ? 'true' : 'false');
+    b.addEventListener('click', function(){ go(i); });
+    li.appendChild(b); spine.appendChild(li);
+  });
+  var tabs = spine.querySelectorAll('button');
+  function go(i){
+    if(i<0 || i>=pages.length) return;
+    pages[cur].classList.remove('on');
+    tabs[cur].setAttribute('aria-current','false');
+    cur = i;
+    pages[cur].classList.add('on');
+    tabs[cur].setAttribute('aria-current','true');
+    pnum.textContent = i+1;
+    pbar.style.width = ((i+1)/pages.length*100)+'%';
+    prev.disabled = (i===0);
+    next.disabled = (i===pages.length-1);
+    next.textContent = (i===pages.length-1) ? 'End' : 'Next — '+TITLES[i+1]+' →';
+    if(window.scrollY > 420) document.querySelector('.book').scrollIntoView({block:'start'});
+    history.replaceState(null,'','#ch'+(i+1));
+  }
+  var pager = document.createElement('div');
+  pager.className = 'pager';
+  var prev = document.createElement('button');
+  prev.type='button'; prev.textContent='← Previous'; prev.disabled = true;
+  var next = document.createElement('button');
+  next.type='button'; next.className='next';
+  prev.addEventListener('click', function(){ go(cur-1); });
+  next.addEventListener('click', function(){ go(cur+1); });
+  pager.appendChild(prev); pager.appendChild(next);
+  document.getElementById('pages').appendChild(pager);
+  document.addEventListener('keydown', function(e){
+    if(e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if(e.key === 'ArrowRight') go(cur+1);
+    if(e.key === 'ArrowLeft')  go(cur-1);
+  });
+  var m = (location.hash||'').match(/^#ch([1-5])$/);
+  go(m ? parseInt(m[1],10)-1 : 0);
+})();
+</script>
+</body>
+      </html>
